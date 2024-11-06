@@ -1,0 +1,206 @@
+body{
+    height: auto;
+min-height: fit-content;
+}
+
+.container{
+    align-items: start !important;
+}
+.image{
+    align-items: end !important;
+
+}
+.h{
+    width: 200px !important;
+    border-radius: 50%;
+    height: 200px;
+    border: white solid 2px;
+    
+}
+.text{
+    strong
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.ul{
+    font-size: 3vh !important;
+}
+.new{
+    font-size: 3vh !important;
+}
+.Logo{
+    border-radius: 50% !important;
+    width: 40px;
+}
+.state{
+    padding-left: 5px !important;
+    margin-top: 5px !important;
+}
+h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 50px !important;
+    
+    
+    
+}
+/* Smooth transition for background color */
+#navbar {
+    transition: background-color 0.3s ease;
+}
+
+/* Background and link color when scrolled */
+#navbar.navbar-scrolled {
+    background-color: #007bff !important; /* Change to desired color */
+    color: white !important;
+}
+
+#navbar.navbar-scrolled .nav-link {
+    color: white !important; /* Ensures nav links turn white */
+}
+
+/* Hover effect on nav links */
+#navbar .nav-link:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
+/*.card-img-top{
+    border: rgb(76, 76, 245) solid 2px;
+}
+.footer {
+    padding: 0; /* Remove any default padding */
+    margin: 0; /* Remove any default margin */
+}
+
+.footer .container-fluid {
+    padding: 0; /* Ensure no padding within the container */
+}
+
+    @keyframes appear {
+        from {
+opacity: 0;
+transform: translateX(-100px);
+        }
+    }
+    to {
+        opacity: 1;
+        transform: translateX(-100px);
+    }
+/*section {
+    animation: appear linear;
+    animation-timeline: view() ;
+    animation-range: entry 30% cover 40%;
+}
+    /* Animation for sections */
+/* Add this to your existing CSS */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 5s forwards;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;
+        transform: translateY(0);
+
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        
+    }
+}
+section{
+    animation: appear linear;
+    animation-range: entry 10% cover 40%;
+}
+.i{
+    text-align: center !important;
+    justify-content: center !important;
+}
+/* Format the links in the footer */
+footer a {
+    color: white !important; /* add a contrasting color to make the links visible */
+    text-decoration: none !important; /* remove underlines */
+    padding: 0.5em !important; /* add padding to create space around the links */
+  }
+  
+  /* Apply hover effect to the links in the footer */
+footer a:hover {
+    background-color: rgb(247, 247, 247) !important; /* change the background color when hovering */
+    color: rgb(38, 0, 255) !important; /* change the text color when hovering */
+  }
+  .i{
+    color: black !importanti;
+  }
+.container-fluid{
+    width: 100% !important;
+    position: relative !important;
+    margin-top: 5px !important;
+    border-radius: 10px !important;
+    border: white dotted;
+    background-color: black;
+}
+@keyframes changecolor{
+    0%{
+        background-color: #008628;
+        border: #008628;
+    }
+    50%{
+        background-color: blue;
+        border: blue;
+    }
+    100%{
+        background-color: #00d9ff;
+        border: #00d9ff;
+    }
+}
+.b{
+animation: changecolor 3s 0s infinite linear;
+animation-duration: 3s;
+animation-timeline: linear;
+}
+.j{
+    width: 90% !important;
+    margin-left: auto !important;
+margin-right: auto !important;
+height: auto !important;
+}
+.j img{
+    height: 400px !important;
+    size: cover;
+}
+.social-icon :hover{
+    color: blue !important;
+}
+.social-icon-scrolled :hover{
+    color: orange !important;
+}
+@keyframes textcolor{
+    0%{
+      color: black;
+      
+    }
+    25%{
+        color: orange;
+        
+    }
+    50%{
+    color: #007bff;
+    
+    }
+    75%{
+        color: rgb(255, 2, 179);
+        
+    }
+    100%{
+color: #008628;
+border-bottom: #008628;
+    }
+}
+.Check{
+    animation: textcolor 3s 0s infinite linear;
+    animation-timing-function: linear;
+}
